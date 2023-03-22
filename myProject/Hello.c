@@ -47,7 +47,7 @@ return 0;
 
 }
 */
-//문제1
+//문제 1
 //#include <stdio.h>
 
 //int main()
@@ -59,7 +59,7 @@ return 0;
 //    return 0;
 //}
 
-//문제2
+//문제 2
 #include <stdio.h>
 
 int main()
@@ -68,3 +68,4 @@ int main()
     
     return 0;
 }
+
