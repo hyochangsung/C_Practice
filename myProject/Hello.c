@@ -46,7 +46,7 @@ printf("%d %d\n", 10, 20);
 return 0;
 
 }
-*/
+
 //문제 1
 //#include <stdio.h>
 
@@ -64,8 +64,69 @@ return 0;
 
 int main()
 {
-    printf("%dx%d=%d\n%dx%d=%d\n",4,5,20,7,9,63);
+    printf("%dx%d=%d\n%dx%d=%d\n",4,5,4*5,7,9,7*9);
     
     return 0;
 }
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    //정수형 변수의 대한 예제
+    /*int age = 12;
+    printf("%d\n",age);
+    age = 13;
+    printf("%d\n",age);*/
+  
+    //실수형 변수의 대한 예제
+    /*float f = 46.5;
+    printf("%.2f\n",f); //소수점 둘째 자리까지 출력 %.2f
+    double d = 4.428;
+    printf("%.2lf\n",d); //소수점 둘째 자리까지 반올림*/
+
+    //const int year = 2000; // 상수
+    //printf("올해는 %d년입니다.\n",year);
+    
+    //printf
+    //연산
+    
+    //int add = 3 + 7;
+    //printf("3 + 7 = %d\n",add);
+    //printf("%d + %d = %d\n",3,7,3 + 7);
+    //printf("3 + 7 = 10\n");
+    
+    //scanf
+    //키보드 입력을 받아서 저장
+    /*int input;
+    printf("값을 입력하세요 :");
+    scanf("%d", &input);
+    printf("%d 입니다.",input);*/
+    /*int one, two, three;
+    printf("값을 세번 입력하시오 : ");
+    scanf("%d %d %d",&one,&two,&three);
+    printf("입력된 값은 %d %d %d 입니다.\n",one,two,three);*/
+    
+    //문자(한 글자), 문자열(한 글자 이상의 여러글자)
+    /*char c = 'A';
+    printf("%c\n",c);*/
+    //char c[100];
+    //scanf("%s",c);
+    //printf("%s\n",c);
+    //32:06
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
